@@ -1,0 +1,19 @@
+name: Bingo
+version: 1.0
+author: JoltTheBolt
+main: io.github.JoltMuz.Bingo.Bingo
+api-version: Spigot-1.8.8-R0.1-SNAPSHOT-latest
+
+commands:
+  bingo:
+    description: Opens Bingo UI.
+    usage: /bingo
+  bround:
+    description: Start/End Round
+    usage: /bround [start|end] [Duration] [Delay]
+  bend:
+    description: End bingo event.
+    usage: /bend
+  lb:
+    description: Show the top players.
+    usage: /lb
